@@ -1,8 +1,4 @@
 
-
-
-
-
 public static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int mid = left + (right - left) / 2;
@@ -50,9 +46,6 @@ public static void mergeSort(int[] arr, int left, int right) {
         }
     }
 }
-Insertion Sort
-java
-Copy code
 public class InsertionSort {
     public static void insertionSort(int[] arr) {
         int n = arr.length;
