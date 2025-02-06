@@ -1,3 +1,4 @@
+package Work;
 
 public static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
